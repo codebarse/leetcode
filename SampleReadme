@@ -26,7 +26,7 @@ AltSoln1 : {
   Time Complexity : O(n^2)
   Space Complexity : O(n)
   Solution : {
-    This is a sample text just to explain that there can be an alternate solution.
+    This is a sample text just to explain that there can be alternate solutions.
   }
 }
 

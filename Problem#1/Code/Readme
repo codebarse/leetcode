@@ -1,0 +1,10 @@
+Link : https://leetcode.com/problems/two-sum/
+
+OptimalSoln1 : {
+	Time Complexity : O(n)
+	Space Complexity : O(n)
+	Solution : {
+		1. Use a Map to maintain the numbers that exist in the input as key alongwith their index as value.
+		2. For each number 'x' in input vector, check if (target - x) exists. If it does exist then we have found the two numbers.
+	}
+}

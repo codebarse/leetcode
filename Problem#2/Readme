@@ -1,0 +1,16 @@
+Link : https://leetcode.com/problems/add-two-numbers/
+
+OptimalSoln1 : {
+	Time Complexity : O(n)
+	Space Complexity : O(n)
+	Solution : {
+		1. Since the numbers are already reversed in the input, we can traverse the linked list normally to add.
+		2. At every step we add the values in the current nodes of both the linked lists alongwith any carry of a previous step(Init carry=0). Say 's' is the sum, we put s%10 in a new node and remember this reference. 
+		3. We keep adding new nodes at the end of the previous reference with the sum at each step.
+		4. Carry will be s/10.
+		5. We keep adding till both linked lists reach null. When only one of them reaches null, use 0 as the value for it.
+		6. Check if there is a non-zero carry left after the loop. Add a new node to the end of result for it.
+		7. The answer will be in reversed order as well.
+		
+	}
+}
